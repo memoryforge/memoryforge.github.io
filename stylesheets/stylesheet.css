@@ -134,11 +134,11 @@ a.fitdiv{
 }
 #main-nav ul ul{
   display:none;
-	position:absolute;
-	top:50px;
-	left:0;
-	background:#666;
-	padding:0;
+  position:absolute;
+  top:50px;
+  left:0;
+  background:#666;
+  padding:0;
   list-style:none;
 }
 
@@ -149,7 +149,7 @@ a.fitdiv{
 
 #main-nav ul ul li{
   float:none;
-	width:120px;
+	width:150px;
 }
 #main-nav ul ul a{
   text-decoration: none;

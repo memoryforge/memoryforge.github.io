@@ -117,7 +117,6 @@ a.fitdiv{
   float: left;
   padding: 0;
   margin: 0;
-  width: 90px;
 }
 #main-nav ul a{
   line-height: 50px;
@@ -125,6 +124,7 @@ a.fitdiv{
   text-decoration: none;
   display: block;
   font-size: 18px;
+  padding: 0 20px;
   color: #eeeeee;
   text-align: center;
 }

@@ -48,6 +48,125 @@ table {
 Theme Styles
 *******************************************************************************/
 
+a.fitdiv{
+  display: block;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  color: #ddd;
+}
+
+#main-nav{
+  background: #444;
+  color: #fff;
+  height: 50px;
+  width: 100%;
+}
+
+#logo-wrap{
+  float: left;
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  color: #ddd;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+}
+
+#logo-wrap a:hover #logo-img{
+  fill:#fff;
+}
+
+.logo-text{
+  float: right;
+  padding: 0 8px 0 4px; 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#logo-wrap a{
+  height: 50px;
+  line-height: 50px;
+}
+
+#logo-wrap a:hover{
+  color: #fff;
+}
+
+#main-nav ul{
+  list-style: none;
+  display: inline-block;
+  float: right;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#main-nav ul li{
+  position: relative;
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 90px;
+}
+#main-nav ul a{
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  color: #eeeeee;
+  text-align: center;
+}
+#main-nav ul li:hover{
+  background: #999;
+  color: #fff;
+}
+#main-nav ul ul{
+  display:none;
+	position:absolute;
+	top:50px;
+	left:0;
+	background:#666;
+	padding:0;
+  list-style:none;
+}
+
+#main-nav ul li:hover > ul
+{
+	display:block
+}
+
+#main-nav ul ul li{
+  float:none;
+	width:120px;
+}
+#main-nav ul ul a{
+  text-decoration: none;
+  text-align: left;
+  color: #eee;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+#main-nav ul ul li:first-child{
+  border-top: 1px solid #000;
+}
+
+
 body {
   box-sizing: border-box;
   color:#373737;

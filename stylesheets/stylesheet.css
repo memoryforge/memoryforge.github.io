@@ -48,15 +48,37 @@ table {
 Theme Styles
 *******************************************************************************/
 
+.staff-wrap{
+	display: block;
+	position: relative;
+}
+
+.staff-img{
+	display: inline-block;
+	padding: 20px;
+	border: 5px solid #444;
+	border-radius: 50%;
+}
+
+.staff-name{
+	display: inline-block;
+}
+
+.staff-text{
+	display: inline-block;
+}
+
+
+
 a.fitdiv{
-  display: block;
+	display: block;
 	height: 100%;
 	width: 100%;
 	text-decoration: none;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-  color: #ddd;
+	color: #ddd;
 }
 
 #main-nav{

@@ -60,6 +60,7 @@ Theme Styles
   display: inline-block;
   width: 20%;
   text-align: center;
+  position: relative;
 }
 
 .staff-wrap-r{

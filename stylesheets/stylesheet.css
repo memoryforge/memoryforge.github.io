@@ -56,13 +56,13 @@ Theme Styles
 }
 
 .staff-wrap-l{
-  display: table-column;
+  display: inline-block;
   width: 30%;
   text-align: center;
 }
 
 .staff-wrap-r{
-  display: table-column;
+  display: inline-block;
   width: 70%;
 }
 

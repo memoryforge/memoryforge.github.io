@@ -63,7 +63,7 @@ Theme Styles
 }
 
 .staff-name{
-	display: block;
+	display: inline-block;
 }
 
 span.staff-text{

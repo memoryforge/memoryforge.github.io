@@ -64,6 +64,7 @@ Theme Styles
 .staff-wrap-r{
   display: inline-block;
   width: 80%;
+  position: relative;
 }
 
 .staff-img{
@@ -87,6 +88,7 @@ Theme Styles
 span.staff-text{
   display: table-cell;
   vertical-align: middle;
+  height: 100%;
 }
 
 a.fitdiv{

@@ -87,7 +87,7 @@ Theme Styles
   padding: 0 10px;
 }
 
-span.staff-text{
+.staff-text{
   display: table-cell;
   vertical-align: middle;
   height: 100%;

@@ -49,27 +49,27 @@ Theme Styles
 *******************************************************************************/
 
 .staff-wrap{
-	display: block;
+  display: table;
   position: relative;
   margin-bottom: 20px;
-  height: 200px;
+  width: 100%;
 }
 
 .staff-wrap-l{
-  display: inline-block;
+  display: table-column;
   float: left;
   width: 30%;
   text-align: center;
 }
 
 .staff-wrap-r{
-  float: right;
+  float: table-column;
   width: 70%;
   display: inline-block;
 }
 
 .staff-img{
-	display: inline-block;
+	display: table-cell;
   text-align: center;
 	padding: 10px;
 	border: 8px solid #444;
@@ -80,15 +80,14 @@ Theme Styles
 }
 
 .staff-name{
-	display: block;
+	display: table-cell;
   text-align: center;
   margin: 10px auto;
   padding: 0 10px;
 }
 
 span.staff-text{
-  display: inline-block;
-  margin: 35px 0;
+  display: table-cell;
 }
 
 a.fitdiv{

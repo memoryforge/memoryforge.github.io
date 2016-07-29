@@ -49,7 +49,7 @@ Theme Styles
 *******************************************************************************/
 
 .staff-wrap{
-  display: inline-table;
+  display: inline-block;
   position: relative;
   padding-bottom: 20px;
   width: 100%;

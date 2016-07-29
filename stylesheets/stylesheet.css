@@ -198,11 +198,13 @@ a.fitdiv{
 #main-nav ul li:hover > ul
 {
 	display:block
+	z-index: 10;
 }
 
 #main-nav ul ul li{
-  float:none;
+	float:none;
 	width:150px;
+	z-index:10;
 }
 #main-nav ul ul a{
   text-decoration: none;

@@ -192,19 +192,17 @@ a.fitdiv{
   background:#666;
   padding:0;
   list-style:none;
-  z-index: 10;
+  z-index: 11;
 }
 
 #main-nav ul li:hover > ul
 {
-	display:block
-	z-index: 10;
+	display:block;
 }
 
 #main-nav ul ul li{
 	float:none;
 	width:150px;
-	z-index:10;
 }
 #main-nav ul ul a{
   text-decoration: none;
@@ -217,7 +215,6 @@ a.fitdiv{
   border-right: 1px solid #000;
   border-left: 1px solid #000;
   border-bottom: 1px solid #000;
-  z-index: 10;
 }
 #main-nav ul ul li:first-child{
   border-top: 1px solid #000;

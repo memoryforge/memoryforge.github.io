@@ -67,7 +67,7 @@ Theme Styles
 }
 
 .staff-img{
-	display: block;
+	display: inline-block;
   text-align: center;
 	padding: 10px;
 	border: 8px solid #444;
@@ -78,7 +78,7 @@ Theme Styles
 }
 
 .staff-name{
-	display: inline-block;
+	display: block;
   text-align: center;
   margin: 10px auto;
   padding: 0 10px;

@@ -57,17 +57,17 @@ Theme Styles
 
 .staff-wrap-l{
   display: inline-block;
-  width: 30%;
+  width: 20%;
   text-align: center;
 }
 
 .staff-wrap-r{
   display: inline-block;
-  width: 70%;
+  width: 80%;
 }
 
 .staff-img{
-	display: table-cell;
+	display: inline-block;
   text-align: center;
 	padding: 10px;
 	border: 8px solid #444;
@@ -78,7 +78,7 @@ Theme Styles
 }
 
 .staff-name{
-	display: table-cell;
+	display: inline-block;
   text-align: center;
   margin: 10px auto;
   padding: 0 10px;

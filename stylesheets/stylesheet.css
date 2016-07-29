@@ -50,27 +50,46 @@ Theme Styles
 
 .staff-wrap{
 	display: block;
-	position: relative;
+  position: relative;
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+.staff-wrap-l{
+  display: inline-block;
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+.staff-wrap-r{
+  float: right;
+  width: 70%;
+  display: inline-block;
 }
 
 .staff-img{
 	display: inline-block;
-	padding: 20px;
-	border: 5px solid #444;
+  text-align: center;
+	padding: 10px;
+	border: 8px solid #444;
 	border-radius: 50%;
 	width: 100px;
 	height: 100px;
+  vertical-align: middle;
 }
 
 .staff-name{
-	display: inline-block;
+	display: block;
+  text-align: center;
+  margin: 10px auto;
+  padding: 0 10px;
 }
 
 span.staff-text{
-	display: inline-block;
+  display: inline-block;
+  margin: 35px 0;
 }
-
-
 
 a.fitdiv{
 	display: block;

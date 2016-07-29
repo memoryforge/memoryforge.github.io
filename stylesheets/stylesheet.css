@@ -60,14 +60,11 @@ Theme Styles
   display: inline-block;
   width: 20%;
   text-align: center;
-  position: relative;
 }
 
 .staff-wrap-r{
   display: inline-block;
   width: 80%;
-  position: relative;
-  height: 100%;
   vertical-align: middle;
   top:0;
 }
@@ -93,8 +90,6 @@ Theme Styles
 .staff-text{
   display: inline;
   vertical-align: middle;
-  height: 100%;
-  position: relative;
 }
 
 a.fitdiv{

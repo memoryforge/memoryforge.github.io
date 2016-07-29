@@ -83,7 +83,11 @@ a.fitdiv{
   border: 5px solid transparent;
 }
 
-#logo-wrap a:hover #logo-img{
+.logo-img{
+  fill: #ddd;
+}
+
+#logo-wrap a:hover .logo-img{
   fill:#fff;
 }
 

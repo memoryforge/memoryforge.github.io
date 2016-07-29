@@ -68,6 +68,7 @@ Theme Styles
   position: relative;
   height: 100%;
   vertical-align: middle;
+  top:0;
 }
 
 .staff-img{

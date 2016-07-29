@@ -57,15 +57,13 @@ Theme Styles
 
 .staff-wrap-l{
   display: table-column;
-  float: left;
   width: 30%;
   text-align: center;
 }
 
 .staff-wrap-r{
-  float: table-column;
+  display: table-column;
   width: 70%;
-  display: inline-block;
 }
 
 .staff-img{

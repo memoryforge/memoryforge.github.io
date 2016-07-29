@@ -440,6 +440,7 @@ Full-Width Styles
   width: 100%;
   padding: 20px 10px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 #header_wrap {

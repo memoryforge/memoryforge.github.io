@@ -86,6 +86,7 @@ Theme Styles
 
 span.staff-text{
   display: table-cell;
+  vertical-align: middle;
 }
 
 a.fitdiv{

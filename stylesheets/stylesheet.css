@@ -64,10 +64,10 @@ Theme Styles
 }
 
 .staff-name{
-	display: inline-block;
+	display: block;
 }
 
-.staff-text{
+span.staff-text{
 	display: inline-block;
 }
 

@@ -91,6 +91,7 @@ Theme Styles
   display: inline;
   vertical-align: middle;
   height: 100%;
+  position: relative;
 }
 
 a.fitdiv{

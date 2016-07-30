@@ -59,22 +59,18 @@ Theme Styles
 }
 
 .staff-wrap-l{
-  display: block;
-  justify-content: center;
-align-items: center;
+  display: inline-block;
   width: 20%;
   text-align: center;
 }
 
 .staff-wrap-r{
 display: flex;
-justify-content: center;
+justify-content: flex-end;
 align-items: center;
   width: 80%;
   vertical-align: middle;
-  position: absolute;
   height: 100%;
-  top:0;
 }
 
 .staff-img{

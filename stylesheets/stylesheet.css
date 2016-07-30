@@ -66,11 +66,11 @@ Theme Styles
 
 .staff-wrap-r{
 display: flex;
-justify-content: flex-end;
+justify-content: center;
 align-items: center;
   width: 80%;
-  vertical-align: middle;
   height: 100%;
+  top: 0;
 }
 
 .staff-img{

@@ -65,7 +65,9 @@ Theme Styles
 }
 
 .staff-wrap-r{
-  display: inline-block;
+display: flex;
+justify-content: center;
+align-items: center;
   width: 80%;
   vertical-align: middle;
   position: absolute;

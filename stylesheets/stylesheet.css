@@ -198,6 +198,10 @@ a.fitdiv{
 	display:block;
 }
 
+#main-nav ul li ul:hover {
+	display: block;
+}
+
 #main-nav ul ul li{
 	float:none;
 	width:150px;

@@ -59,7 +59,9 @@ Theme Styles
 }
 
 .staff-wrap-l{
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+align-items: center;
   width: 20%;
   text-align: center;
 }

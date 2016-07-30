@@ -59,7 +59,7 @@ Theme Styles
 }
 
 .staff-wrap-l{
-  display: flex;
+  display: block;
   justify-content: center;
 align-items: center;
   width: 20%;

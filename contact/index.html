@@ -42,7 +42,36 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h2>Contact</h2>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelTwEuYY_6gy7hDkIXGvCIZ1bfDbdHrSnUOQVTUYfuPav8Fg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <div id="form" class="contact-us-form">
+    <div class="title">
+        <strong>Please feel free to contact us using the following form:</strong>
+    </div>
+    <form id="callus" target="_self" onsubmit="" action="javascript: postContactToGoogle()">
+        <fieldset>
+            <label for="firstname">First Name: *</label>
+            <input id="firstname" type="text" name="firstname">
+          <label for="lastname">Last Name: *</label>
+            <input id="lastname" type="text" name="lastname">
+        </fieldset>
+        <fieldset>
+            <label for="email">Email: *</label>
+            <input id="email" type="text" name="email">
+        </fieldset>
+        <fieldset>
+            <label for="feed">Message: *</label>
+            <textarea id="feed" name="feed"></textarea>
+        </fieldset>
+        <div style="text-align: right; padding-bottom: 15px;">* Required</div>
+        <div style="width: 100%; display: block; float: right;">
+            <button id="send" type="submit">
+                Contact Us
+            </button>
+        </div>
+        <div style="width: 100%; display: block; float: right; padding-top: 15px;">
+            <div class="requestSubmited" style="display:none; text-align: center;">Your request has been sent!</div>
+        </div>
+    </form>
+</div>
         </section>
     </div>
 

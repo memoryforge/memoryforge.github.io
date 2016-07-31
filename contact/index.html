@@ -48,18 +48,16 @@
     </div>
     <form id="callus" target="_self" onsubmit="" action="javascript: postContactToGoogle()">
         <fieldset>
-            <label for="firstname">First Name: *</label>
-            <input id="firstname" type="text" name="firstname">
-          <label for="lastname">Last Name: *</label>
-            <input id="lastname" type="text" name="lastname">
+            <label for="name">Your Name: *</label>
+            <input id="name" class="contact-name" type="text" name="name">
         </fieldset>
         <fieldset>
-            <label for="email">Email: *</label>
-            <input id="email" type="text" name="email">
+            <label for="email">Your Email: *</label>
+            <input id="email" class="contact-email" type="text" name="email">
         </fieldset>
         <fieldset>
             <label for="feed">Message: *</label>
-            <textarea id="feed" name="feed"></textarea>
+            <textarea id="feed" class="contact-message" name="feed"></textarea>
         </fieldset>
         <div style="text-align: right; padding-bottom: 15px;">* Required</div>
         <div style="width: 100%; display: block; float: right;">

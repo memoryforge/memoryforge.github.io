@@ -30,6 +30,7 @@ jQuery( document ).ready(function( $ ) {
       console.log(response, textStatus, jqXHR);
 			console.log("Hooray, it worked!");
 			$("#foo").hide();
+			$('#thankyou').html('Thank you for your submission!');
 		});
 		// callback handler that will be called on failure
 		request.fail(function (jqXHR, textStatus, errorThrown){

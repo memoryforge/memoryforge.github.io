@@ -57,16 +57,16 @@ Theme Styles
 }
 
 #contact-form{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
+
 	width: 100%;
 	text-align: left;
 }
 
 #contact-form fieldset{
-	display: flex-container;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
 }
 
 #contact-form label{

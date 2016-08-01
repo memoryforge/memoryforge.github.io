@@ -45,10 +45,33 @@
         <div id="thankyou"></div>
 <form action="https://formspree.io/memoryforgemedia@gmail.com"
       method="POST">
-    <input type="text" name="firstname" placeholder="First" />
-    <input type="text" name="lastname" placeholder="Last" />
-    <input type="email" name="_replyto" placeholder="Email" />
-    <textarea type="text" name="message" placeholder="Your Message"></textarea>
+  <fieldset>
+<label for="firstname">First Name:</label>
+<input id="firstname" type="text" name="firstname">
+
+<input id="lastname" type="text" name="lastname">
+ +        </fieldset>
+ +        <fieldset>
+ +            <label for="email">Email: *</label>
+ +            <input id="email" type="text" name="email">
+ +        </fieldset>
+ +        <fieldset>
+ +            <label for="feed">Message: *</label>
+ +            <textarea id="feed" name="feed"></textarea>
+ +        </fieldset>
+    <fieldset>
+    <label for="firstname">Name: </label>
+    <input id="firstname" type="text" name="firstname" placeholder="First" />
+    <input id="lastname" type="text" name="lastname" placeholder="Last" />
+    </fieldset>
+    <fieldset>
+    <label for="email">Email: </label>
+    <input id="email" type="email" name="_replyto" placeholder="Email" />
+    </fieldset>
+    <fieldset>
+    <label for="message">Message: </label>
+    <textarea id="message" type="text" name="message" placeholder="Your Message"></textarea>
+    </fieldset>
     <input name="_gotcha" type="text" style="display:none;" />
     <input type="hidden" name="_subject" value="Contact Response" />
     <input type="submit" value="Submit">

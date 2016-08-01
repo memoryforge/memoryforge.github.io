@@ -48,9 +48,14 @@ table {
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
+#form-wrap{
+	text-align: center;
+	margin: 0 auto;
+	display: relative;
+}
 
 #contact-form{
-	text-align: center;
+	text-align: left;
 }
 
 #contact-form label{

@@ -20,26 +20,12 @@ jQuery( document ).ready(function( $ ) {
 		$('#result').text('Sending data...');
 		// fire off the request to /form.php
 		request = $.ajax({
-			// url: "https://script.google.com/macros/s/AKfycbzV--xTooSkBLufMs4AnrCTdwZxVNtycTE4JNtaCze2UijXAg8/exec", // works
-      url: "https://script.google.com/macros/s/AKfycbywNjQrh9-r0h0iApf9UrddPov7nu5nBadkUaYiqZ_Hd7956pJZ/exec",  // clone
+      url: "https://script.google.com/macros/s/AKfycbywNjQrh9-r0h0iApf9UrddPov7nu5nBadkUaYiqZ_Hd7956pJZ/exec",
 			type: "post",
 			data: serializedData
 		});
 		// callback handler that will be called on success
-		request.done(function (response, textStatus, jqXHR){
-			// log a message to the console
-      console.log(response, textStatus, jqXHR);
-			$('#result').html('<a href="https://docs.google.com/spreadsheets/d/10tt64TiALYhPMqR2fh9JzkuhxW7oC0rXXPb_pmJ7HAY/edit?usp=sharing" target="_blank">Success - see Google Sheet</a>');
-			console.log("Hooray, it worked!");
-		});
-		// callback handler that will be called on failure
-		request.fail(function (jqXHR, textStatus, errorThrown){
-			// log the error to the console
-			console.error(
-				"The following error occured: "+
-				textStatus, errorThrown
-			);
-		});
+
 		// callback handler that will be called regardless
 		// if the request failed or succeeded
 		request.always(function () {

@@ -59,6 +59,7 @@ Theme Styles
 #contact-form{
 	display: inline-table;
 	width: 100%;
+	text-align: left;
 }
 
 #contact-form fieldset{

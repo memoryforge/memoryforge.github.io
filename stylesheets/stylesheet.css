@@ -60,11 +60,13 @@ Theme Styles
 display: flex;
 justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 	width: 100%;
 	text-align: left;
 }
 
 #contact-form fieldset{
+	display: flex-container;
 }
 
 #contact-form label{

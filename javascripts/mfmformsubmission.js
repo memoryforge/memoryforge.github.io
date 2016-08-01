@@ -20,15 +20,11 @@ jQuery( document ).ready(function( $ ) {
 		$inputs.prop("disabled", true);
 		$('#result').text('Sending data...');
 		// fire off the request to /form.php
-			if (recaptcha == ""){
-    			alert("You can't proceed!");
-			}
-			else{
 			request = $.ajax({
 			url: "https://script.google.com/macros/s/AKfycbywNjQrh9-r0h0iApf9UrddPov7nu5nBadkUaYiqZ_Hd7956pJZ/exec",
 			type: "post", 
 			data: serializedData
-			});}
+			});
 		// callback handler that will be called on success
 		request.done(function (response, textStatus, jqXHR){
 			// log a message to the console

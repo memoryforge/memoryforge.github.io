@@ -49,8 +49,16 @@ table {
 Theme Styles
 *******************************************************************************/
 
+#contact-form{
+	text-align: center;
+}
+
 #contact-form label{
 	padding-right: 20px;
+}
+
+#contact-form input, #contact-form textarea{
+	font-family: Helvetica, sans-serif;
 }
 
 .staff-wrap{

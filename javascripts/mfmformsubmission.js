@@ -11,6 +11,7 @@ jQuery( document ).ready(function( $ ) {
 		var $form = $(this);
 		// let's select and cache all the fields
 		var $inputs = $form.find("input, select, button, textarea");
+		
 		// serialize the data in the form
 		var serializedData = $form.serialize();
 		// let's disable the inputs for the duration of the ajax request
@@ -19,11 +20,15 @@ jQuery( document ).ready(function( $ ) {
 		$inputs.prop("disabled", true);
 		$('#result').text('Sending data...');
 		// fire off the request to /form.php
-		request = $.ajax({
-      url: "https://script.google.com/macros/s/AKfycbywNjQrh9-r0h0iApf9UrddPov7nu5nBadkUaYiqZ_Hd7956pJZ/exec",
+			if (grecaptcha.getResponse() == ""){
+    			alert("You can't proceed!");
+			}
+			else{
+			request = $.ajax({
+			url: "https://script.google.com/macros/s/AKfycbywNjQrh9-r0h0iApf9UrddPov7nu5nBadkUaYiqZ_Hd7956pJZ/exec",
 			type: "post", 
 			data: serializedData
-		});
+			});}
 		// callback handler that will be called on success
 		request.done(function (response, textStatus, jqXHR){
 			// log a message to the console

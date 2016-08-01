@@ -11,7 +11,7 @@ jQuery( document ).ready(function( $ ) {
 		var $form = $(this);
 		// let's select and cache all the fields
 		var $inputs = $form.find("input, select, button, textarea");
-		
+		var recaptcha = $grecaptcha.getresponse();
 		// serialize the data in the form
 		var serializedData = $form.serialize();
 		// let's disable the inputs for the duration of the ajax request
@@ -20,7 +20,7 @@ jQuery( document ).ready(function( $ ) {
 		$inputs.prop("disabled", true);
 		$('#result').text('Sending data...');
 		// fire off the request to /form.php
-			if (grecaptcha.getResponse() == ""){
+			if (recaptcha == ""){
     			alert("You can't proceed!");
 			}
 			else{

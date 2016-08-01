@@ -28,8 +28,8 @@ jQuery( document ).ready(function( $ ) {
 		request.done(function (response, textStatus, jqXHR){
 			// log a message to the console
       console.log(response, textStatus, jqXHR);
-			$('#result').html('Thank you for your submission!');
 			console.log("Hooray, it worked!");
+			$("#foo").hide();
 		});
 		// callback handler that will be called on failure
 		request.fail(function (jqXHR, textStatus, errorThrown){

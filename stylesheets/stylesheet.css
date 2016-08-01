@@ -51,7 +51,8 @@ Theme Styles
 #form-wrap{
 	text-align: center;
 	margin: 0 auto;
-	display: relative;
+	position: relative;
+	display: block;
 }
 
 #contact-form{

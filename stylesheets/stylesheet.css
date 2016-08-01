@@ -67,8 +67,8 @@ Theme Styles
 }
 
 #contact-form label{
-	display: table-cell;
-	width: 30%;
+	display: inline-block;
+	position: relative;
 }
 
 #contact-form input, #contact-form textarea{

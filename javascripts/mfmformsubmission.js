@@ -21,7 +21,7 @@ jQuery( document ).ready(function( $ ) {
 		// fire off the request to /form.php
 		request = $.ajax({
       url: "https://script.google.com/macros/s/AKfycbywNjQrh9-r0h0iApf9UrddPov7nu5nBadkUaYiqZ_Hd7956pJZ/exec",
-			type: "post",
+			type: "post", 
 			data: serializedData
 		});
 		// callback handler that will be called on success

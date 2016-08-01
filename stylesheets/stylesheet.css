@@ -49,6 +49,10 @@ table {
 Theme Styles
 *******************************************************************************/
 
+#contact-form label{
+	padding-right: 20px;
+}
+
 .staff-wrap{
   display: inline-block;
   position: relative;

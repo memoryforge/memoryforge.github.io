@@ -57,14 +57,14 @@ Theme Styles
 }
 
 #contact-form{
-	display: inline-table;
+display: flex;
+justify-content: center;
+align-items: center;
 	width: 100%;
 	text-align: left;
 }
 
 #contact-form fieldset{
-	display: table-row;
-	width: 100%;
 }
 
 #contact-form label{

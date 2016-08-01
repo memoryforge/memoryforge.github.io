@@ -45,22 +45,22 @@
         <div id="form-wrap">
 <form id="contact-form" action="https://formspree.io/memoryforgemedia@gmail.com"
       method="POST">
-    <fieldset>
+    <fieldset id="name-field">
     <label for="firstname">Name: </label>
     <input id="firstname" type="text" name="firstname" placeholder="First" />
     <input id="lastname" type="text" name="lastname" placeholder="Last" />
     </fieldset>
-    <fieldset>
+    <fieldset id="email-field">
     <label for="email">Email: </label>
     <input id="email" type="email" name="_replyto" placeholder="Email" />
     </fieldset>
-    <fieldset>
+    <fieldset id="message-field">
     <label for="message">Message: </label>
     <textarea id="message" type="text" name="message" placeholder="Your Message"></textarea>
     </fieldset>
     <input name="_gotcha" type="text" style="display:none;" />
     <input type="hidden" name="_subject" value="Contact Response" />
-    <input type="submit" value="Submit">
+    <input id="submit-button" type="submit" value="Submit">
 </form>
 </div>
         </section>

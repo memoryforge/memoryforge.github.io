@@ -60,13 +60,19 @@ Theme Styles
 	display: table;
 }
 
+#contact-form fieldset{
+	display: table-row;
+}
+
 #contact-form label{
 	display: table-cell;
+	width: 30%;
 }
 
 #contact-form input, #contact-form textarea{
 	font-family: Helvetica, sans-serif;
 	display: table-cell;
+	width: 70%;
 }
 
 .staff-wrap{

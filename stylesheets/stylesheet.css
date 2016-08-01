@@ -70,7 +70,7 @@ flex-wrap: wrap;
 }
 
 #name-field{
-	flex-wrap: nowrap;
+	flex-wrap: nowrap !important;
 }
 
 #contact-form label{

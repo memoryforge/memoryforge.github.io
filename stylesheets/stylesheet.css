@@ -74,7 +74,10 @@ Theme Styles
 #contact-form input, #contact-form textarea{
 	font-family: Helvetica, sans-serif;
 	display: table-cell;
-	width: 70%;
+}
+
+#firstname, #lastname{
+	width: 35%;
 }
 
 .staff-wrap{

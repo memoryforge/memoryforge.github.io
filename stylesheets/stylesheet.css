@@ -552,7 +552,7 @@ p.newsletter-info {
   text-align: center;
 }
 
-input[type=text], input[type=email], textarea[type=text] {
+input[type=text] {
     width: 60%;
     padding: 15px 20px;
     margin: 8px 0;
@@ -565,6 +565,44 @@ input[type=text], input[type=email], textarea[type=text] {
     font-weight: 500;
 }
 
+input[name=firstname], input[name=lastname]{
+	width: 40%;
+	padding: 15px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px #d9d6d6;
+	background-color: #f2f2f2;
+	border-radius: 4px;
+	font-size: 13px;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-weight: 500;
+}
+
+input[type=email]{
+    width: 40%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px #D9D6D6;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-weight: 500;
+}
+
+textarea[type=text] {
+    width: 60%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px #D9D6D6;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-weight: 500;
+}
 
 input[type=button], input[type=submit], input[type=reset]{
     background-color: #0677FF;
@@ -582,10 +620,21 @@ input[type=button], input[type=submit], input[type=reset]{
 
 fieldset{
 	border: none;
-	margin: 0 auto;
+	padding: 0 0 0 150px;
 	width: 100%;
 	margin: 0;
-	padding: 0;
+}
+
+#name-field{
+
+}
+
+#email-field{
+	
+}
+
+#message-field{
+	
 }
 
 /* Social Media Styling */ 

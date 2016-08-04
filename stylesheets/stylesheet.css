@@ -552,7 +552,7 @@ p.newsletter-info {
   text-align: center;
 }
 
-#newsletter input[type=text] {
+input[type=text] {
     width: 60%;
     padding: 15px 20px;
     margin: 8px 0;
@@ -566,7 +566,7 @@ p.newsletter-info {
 }
 
 
-#newsletter input[type=button], #newsletter input[type=submit], #newsletter input[type=reset] {
+input[type=button], input[type=submit], input[type=reset] {
     background-color: #0677FF;
     border: 2px;
     border-radius: 4px;

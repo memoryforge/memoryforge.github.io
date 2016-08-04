@@ -552,7 +552,7 @@ p.newsletter-info {
   text-align: center;
 }
 
-input[type=text] {
+input[type=text], input[type=email], textarea[type=text] {
     width: 60%;
     padding: 15px 20px;
     margin: 8px 0;
@@ -566,7 +566,7 @@ input[type=text] {
 }
 
 
-input[type=button], input[type=submit], input[type=reset], input[type=email], textarea[type=text] {
+input[type=button], input[type=submit], input[type=reset]{
     background-color: #0677FF;
     border: 2px;
     border-radius: 4px;

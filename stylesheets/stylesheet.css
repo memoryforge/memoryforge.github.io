@@ -682,6 +682,10 @@ fieldset{
 	text-align: left;
 }
 
+label{
+	margin-right: 10px;
+}
+
 #name-field{
 
 }

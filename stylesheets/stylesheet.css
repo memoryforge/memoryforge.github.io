@@ -706,10 +706,11 @@ label{
 	position: relative;
 	vertical-align: middle;
 	line-height: 62px;
-	height: 62px;
+	height: 46px;
 	float: left;
 	display: inline-block;
-	padding: 8px 0 8px 0;
+	padding: 15px 20px;
+	margin: 8px 0 8px 0;
 	box-sizing: border-box;
 }
 

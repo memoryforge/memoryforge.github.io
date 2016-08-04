@@ -30,6 +30,10 @@ h1.content-title{
   box-sizing: border-box;
 }
 
+.staff-wrap:last-child{
+	margin-bottom: 0;
+}
+
 .staff-wrap-l{
   display: inline-block;
   width: 20%;

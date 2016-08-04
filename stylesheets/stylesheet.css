@@ -704,6 +704,7 @@ fieldset{
 label{
 	width: 20%;
 	position: relative;
+	vertical-align: top;
 	line-height: 46px;
 	height: 46px;
 	float: left;

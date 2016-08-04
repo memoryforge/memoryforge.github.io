@@ -552,7 +552,7 @@ p.newsletter-info {
   text-align: center;
 }
 
-input[type=text] {
+footer input[type=text] {
     width: 60%;
     padding: 15px 20px;
     margin: 8px 0;
@@ -621,7 +621,6 @@ input[type=button], input[type=submit], input[type=reset]{
 fieldset{
 	border: none;
 	padding: 0 0 0 150px;
-	width: 100%;
 	margin: 0;
 }
 

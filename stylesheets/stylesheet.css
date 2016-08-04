@@ -622,6 +622,7 @@ fieldset{
 	border: none;
 	padding: 0 5%;
 	margin: 0;
+	text-align: left;
 }
 
 #name-field{

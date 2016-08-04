@@ -623,6 +623,7 @@ footer input[type=text] {
 }
 
 input[name=firstname], input[name=lastname]{
+	float: right;
 	width: 40%;
 	padding: 15px 20px;
 	margin: 8px auto;
@@ -636,6 +637,7 @@ input[name=firstname], input[name=lastname]{
 }
 
 input[type=email]{
+	float: right;
     width: 80%;
     padding: 15px 20px;
     margin: 8px auto;
@@ -649,8 +651,9 @@ input[type=email]{
 }
 
 textarea[type=text] {
+	float: right;
     width: 80%;
-    height: 250px;
+    height: 150px;
     padding: 15px 20px;
     margin: 8px auto;
     box-sizing: border-box;

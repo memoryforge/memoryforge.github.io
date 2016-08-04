@@ -624,7 +624,7 @@ footer input[type=text] {
 
 input[name=firstname]{
 	float: right;
-	width: 40%;
+	width: 35%;
 	padding: 15px 20px;
 	margin: 8px auto;
 	box-sizing: border-box;
@@ -638,7 +638,7 @@ input[name=firstname]{
 
 input[name=lastname]{
 	float: right;
-	width: 40%;
+	width: 35%;
 	padding: 15px 20px;
 	margin: 8px auto;
 	box-sizing: border-box;

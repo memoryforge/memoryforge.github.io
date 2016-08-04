@@ -620,7 +620,7 @@ input[type=button], input[type=submit], input[type=reset]{
 
 fieldset{
 	border: none;
-	padding: 0 0 0 150px;
+	padding: 0 5%;
 	margin: 0;
 }
 

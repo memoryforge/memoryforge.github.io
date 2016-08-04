@@ -701,6 +701,7 @@ fieldset{
 }
 
 label{
+	float: left;
 	margin-right: 10px;
 	display: inline-block;
 	padding-top: 10px;

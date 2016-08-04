@@ -640,7 +640,7 @@ input[name=firstname]{
 	float: right;
 	width: 35%;
 	padding: 15px 20px;
-	margin: 8px 5% 8px 0;
+	margin: 8px 0 8px 5%;
 	box-sizing: border-box;
 	border: 1px #d9d6d6;
 	background-color: #f2f2f2;

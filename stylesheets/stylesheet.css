@@ -14,10 +14,9 @@ a{
 }
 
 h1.content-title{
-	font-family: "Mallory", Sans-Serif;
 	font-size: 36px;
 	font-weight: bold;
-	margin: 0 0 0 80px;
+	margin: 10 0 10 80px;
 	display: inline-block;
 	text-align: left;
 }
@@ -169,7 +168,7 @@ nav ul ul li:first-child{
 
 
 /* resets */
-body { margin:0px; padding:0px; }
+body { margin:0px; padding:0px; font-family: "Mallory", Sans-Serif;}
 
 .fitdiv{
 	display: block;

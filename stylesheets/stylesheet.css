@@ -580,6 +580,14 @@ input[type=button], input[type=submit], input[type=reset]{
     font-weight: 900;
 }
 
+fieldset{
+	border: none;
+	margin: 0 auto;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 /* Social Media Styling */ 
 #social-footer-wrap {
   width: 40%;

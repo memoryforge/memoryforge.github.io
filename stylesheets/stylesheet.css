@@ -70,6 +70,7 @@ align-items: center;
 .staff-text{
   display: inline-block;
   vertical-align: middle;
+  text-align: left;
 }
 
 section {

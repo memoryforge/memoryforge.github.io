@@ -566,7 +566,7 @@ input[type=text] {
 }
 
 
-input[type=button], input[type=submit], input[type=reset] {
+input[type=button], input[type=submit], input[type=reset], input[type=email], textarea[type=text] {
     background-color: #0677FF;
     border: 2px;
     border-radius: 4px;

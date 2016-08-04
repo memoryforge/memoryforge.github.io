@@ -623,7 +623,7 @@ footer input[type=text] {
 }
 
 input[name=firstname]{
-	float: left;
+	float: right;
 	width: 40%;
 	padding: 15px 20px;
 	margin: 8px auto;
@@ -701,8 +701,8 @@ fieldset{
 }
 
 label{
+	width: 20%;
 	float: left;
-	margin-right: 10px;
 	display: inline-block;
 	padding-top: 10px;
 	box-sizing: border-box;

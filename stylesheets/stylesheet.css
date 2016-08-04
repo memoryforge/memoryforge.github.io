@@ -623,6 +623,7 @@ footer input[type=text] {
 }
 
 input[name=lastname]{
+	display: inline-block;
 	float: right;
 	width: 38%;
 	padding: 15px 20px;
@@ -637,7 +638,7 @@ input[name=lastname]{
 }
 
 input[name=firstname]{
-	float: right;
+	display: inline-block;
 	width: 38%;
 	padding: 15px 20px;
 	margin: 8px 2% 8px 0;

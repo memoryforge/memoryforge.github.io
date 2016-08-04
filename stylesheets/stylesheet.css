@@ -625,7 +625,7 @@ footer input[type=text] {
 input[name=firstname], input[name=lastname]{
 	width: 40%;
 	padding: 15px 20px;
-	margin: 8px 0;
+	margin: 8px auto;
 	box-sizing: border-box;
 	border: 1px #d9d6d6;
 	background-color: #f2f2f2;
@@ -636,9 +636,9 @@ input[name=firstname], input[name=lastname]{
 }
 
 input[type=email]{
-    width: 40%;
+    width: 80%;
     padding: 15px 20px;
-    margin: 8px 0;
+    margin: 8px auto;
     box-sizing: border-box;
     border: 1px #D9D6D6;
     background-color: #F2F2F2;
@@ -649,9 +649,10 @@ input[type=email]{
 }
 
 textarea[type=text] {
-    width: 60%;
+    width: 80%;
+    height: 250px;
     padding: 15px 20px;
-    margin: 8px 0;
+    margin: 8px auto;
     box-sizing: border-box;
     border: 1px #D9D6D6;
     background-color: #F2F2F2;

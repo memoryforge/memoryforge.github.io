@@ -106,9 +106,8 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 .column {
   padding: 10px 0;
   text-align: center;
-  border: 1px solid #aaa;
-  background-color: #ddd;
-  color: #000;
+  background-color: #222;
+  color: #eee;
 }
 
 .column p{

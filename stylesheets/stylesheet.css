@@ -114,6 +114,7 @@ section:nth-of-type(6) .column:nth-of-type(2) {
   text-align: left;
   margin: 10px;
   font-size: 14px;
+  line-height: 20px;
 }
 
 header {

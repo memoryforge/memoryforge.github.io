@@ -106,14 +106,14 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 .column {
   padding: 10px 0;
   text-align: center;
-  background-color: #222;
-  color: #eee;
+  background-color: #fff;
+  color: #000;
 }
 
 .column p{
   text-align: left;
   margin: 10px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 header {
@@ -121,7 +121,7 @@ header {
   z-index:10;
 }
 .header-banner {
-  background-color: #ccc;
+  background-color: #ddd;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
